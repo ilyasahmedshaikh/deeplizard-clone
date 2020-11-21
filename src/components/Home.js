@@ -1,6 +1,8 @@
 import React from 'react';
 import '../assets/css/home.css';
 
+import Particles from 'react-particles-js'; 
+
 import calculus from '../assets/img/calculus-curve-tangent-line.png'
 import Keras from '../assets/img/keras-logo-with-text.png';
 import robot from '../assets/img/robot.png';
@@ -29,9 +31,32 @@ class Home extends React.Component {
         return(
             <div>
                 <section className="slider">
-                    <h4>Building Collective Intelligence</h4>
-                    <h1>DEEPLIZARD</h1>
-                    <a className="btn-c outlined">Deep Learning Courses & Offerings</a>
+                    <div className="content">
+                        <h4>Building Collective Intelligence</h4>
+                        <h1>DEEPLIZARD</h1>
+                        <a className="btn-c outlined">Deep Learning Courses & Offerings</a>
+                    </div>
+
+                    <Particles
+                        params={{ 
+                            particles: { 
+                                number: { 
+                                    value: 200, 
+                                    density: { 
+                                        enable: true, 
+                                        value_area: 1000, 
+                                    },
+                                },
+                                color: {
+                                    value: "#cccccc"
+                                },
+                                line_linked: {
+                                  color: '#cccccc',
+                                  opacity: 1
+                                }
+                            }, 
+                        }} 
+                    /> 
                 </section>
 
                 <section className="after-slider">

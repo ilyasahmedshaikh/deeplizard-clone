@@ -1,7 +1,7 @@
 /* slider section  */
 
 .slider {
-    padding: 8rem 6rem 12rem 8rem;
+    /* padding: 8rem 6rem 12rem 8rem; */
 }
 
 .slider h1 {
@@ -15,6 +15,16 @@
     margin-bottom: 0.25rem;
     font-family: "droid serif", serif;
     font-style: italic;
+}
+
+.slider .content {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+}
+
+#tsparticles {
+    height: 500px;
 }
 
 /* after-slider section  */
@@ -123,7 +133,7 @@
 
 @media (max-width: 600px) {
     .slider {
-        padding: 4rem 1rem;
+        /* padding: 4rem 1rem; */
         margin-bottom: 0rem;
     }
 
@@ -142,4 +152,8 @@
     .deeplearning-section h2 { font-size: 1.5rem; }
 
     .multiple-courses .item img { padding-bottom: 20px; }
+
+    #tsparticles {
+        height: 300px;
+    }
 }
