@@ -69,7 +69,7 @@ class Code extends React.Component {
                                     <div className="collapse-item" onClick={() => this.setCollapse('ML') }>
                                         <h3>Machine Learning & Deep Learning Fundamentals 
                                             {
-                                                this.state.collapse ?
+                                                this.state.collapse == 'ML' ?
                                                 <i class="fas fa-chevron-down float-right"></i>
                                                 :
                                                 <i class="fas fa-chevron-left float-right"></i>
@@ -79,12 +79,12 @@ class Code extends React.Component {
                                     <div className={this.state.collapse == 'ML' ? "d-block" : "d-none"}>
                                         <div class="card border-0">
                                             <div className="row">
-                                                <div className="col-2">
+                                                <div className="col-12 col-md-2">
                                                     <a className="badge badge-dark">Latest Release</a>
                                                     <div className="pt-2"><i class="fas fa-code-branch"></i> <span className="text-danger text-right">dfebcf1</span></div>
                                                     <div className="pt-1"><i class="fas fa-tag"></i> v1.0.0</div>
                                                 </div>
-                                                <div className="col-10">
+                                                <div className="col-12 col-md-10 pt-2">
                                                     <h4><strong>Deep Learning Fundamentals v1.0.0</strong></h4>
                                                     <h4>Files</h4>
                                                     <p>Files included in this release:</p>
@@ -209,7 +209,7 @@ class Code extends React.Component {
                                     <div className="collapse-item" onClick={() => this.setCollapse('Keras') }>
                                         <h3>Keras - Python Deep Learning Neural Network API 
                                             {
-                                                this.state.collapse ?
+                                                this.state.collapse == 'Keras'  ?
                                                 <i class="fas fa-chevron-down float-right"></i>
                                                 :
                                                 <i class="fas fa-chevron-left float-right"></i>
@@ -219,12 +219,12 @@ class Code extends React.Component {
                                     <div className={this.state.collapse == 'Keras' ? "d-block" : "d-none"}>
                                         <div class="card border-0">
                                             <div className="row">
-                                                <div className="col-2">
+                                                <div className="col-12 col-md-2">
                                                     <a className="badge badge-dark">Latest Release</a>
                                                     <div className="pt-2"><i class="fas fa-code-branch"></i> <span className="text-danger text-right">dfebcf1</span></div>
                                                     <div className="pt-1"><i class="fas fa-tag"></i> v1.0.0</div>
                                                 </div>
-                                                <div className="col-10">
+                                                <div className="col-12 col-md-10 pt-2">
                                                     <h4><strong>Keras - Python Deep Learning Neural Network API  v1.0.0</strong></h4>
                                                     <h4>Files</h4>
                                                     <p>Files included in this release:</p>
@@ -349,7 +349,7 @@ class Code extends React.Component {
                                     <div className="collapse-item" onClick={() => this.setCollapse('NN') }>
                                         <h3>Neural Network Programming - Deep Learning With PyTorch
                                             {
-                                                this.state.collapse ?
+                                                this.state.collapse == 'NN' ?
                                                 <i class="fas fa-chevron-down float-right"></i>
                                                 :
                                                 <i class="fas fa-chevron-left float-right"></i>
@@ -359,12 +359,12 @@ class Code extends React.Component {
                                     <div className={this.state.collapse == 'NN' ? "d-block" : "d-none"}>
                                         <div class="card border-0">
                                             <div className="row">
-                                                <div className="col-2">
+                                                <div className="col-12 col-md-2 pt-2">
                                                     <a className="badge badge-dark">Latest Release</a>
                                                     <div className="pt-2"><i class="fas fa-code-branch"></i> <span className="text-danger text-right">dfebcf1</span></div>
                                                     <div className="pt-1"><i class="fas fa-tag"></i> v1.0.0</div>
                                                 </div>
-                                                <div className="col-10">
+                                                <div className="col-12 col-md-10">
                                                     <h4><strong>Neural Network Programming - Deep Learning With PyTorch v1.0.0</strong></h4>
                                                     <h4>Files</h4>
                                                     <p>Files included in this release:</p>
@@ -489,7 +489,7 @@ class Code extends React.Component {
                                     <div className="collapse-item" onClick={() => this.setCollapse('RL') }>
                                         <h3>Reinforcement Learning - Goal Oriented Intelligence
                                             {
-                                                this.state.collapse ?
+                                                this.state.collapse == 'RL' ?
                                                 <i class="fas fa-chevron-down float-right"></i>
                                                 :
                                                 <i class="fas fa-chevron-left float-right"></i>
@@ -499,12 +499,12 @@ class Code extends React.Component {
                                     <div className={this.state.collapse == 'RL' ? "d-block" : "d-none"}>
                                         <div class="card border-0">
                                             <div className="row">
-                                                <div className="col-2">
+                                                <div className="col-12 col-md-2 pt-2">
                                                     <a className="badge badge-dark">Latest Release</a>
                                                     <div className="pt-2"><i class="fas fa-code-branch"></i> <span className="text-danger text-right">dfebcf1</span></div>
                                                     <div className="pt-1"><i class="fas fa-tag"></i> v1.0.0</div>
                                                 </div>
-                                                <div className="col-10">
+                                                <div className="col-12 col-md-10">
                                                     <h4><strong>Reinforcement Learning - Goal Oriented Intelligence v1.0.0</strong></h4>
                                                     <h4>Files</h4>
                                                     <p>Files included in this release:</p>

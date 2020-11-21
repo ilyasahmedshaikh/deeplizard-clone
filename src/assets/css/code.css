@@ -14,3 +14,9 @@
     border-bottom: 1px solid #ebebeb;
     padding: 10px 0 10px 0;
 }
+
+@media only screen and (max-width: 600px) {
+    .collapse-item h3 {
+        font-size: 17px;
+    }
+}
