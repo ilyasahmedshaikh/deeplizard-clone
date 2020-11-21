@@ -67,10 +67,11 @@ function Header() {
 
                 <div className={"mobile-menu sidenav " + (menuToggle ? 'open' : 'close')}>
                     {/* <li><Link to={process.env.PUBLIC_URL + '/home'}>Home</Link></li> */}
+                    <li><Link to={process.env.PUBLIC_URL + '/home'} onClick={() => setMenuToggle(!menuToggle)}>Home</Link></li>
                     <li><Link>Courses</Link></li>
-                    <li><Link to={process.env.PUBLIC_URL + '/code'}>Code</Link></li>
-                    <li><Link to={process.env.PUBLIC_URL + '/hivemind'}>Hivemind</Link></li>
-                    <li><Link to={process.env.PUBLIC_URL + '/vlog'}>Vlog</Link></li>
+                    <li><Link to={process.env.PUBLIC_URL + '/code'} onClick={() => setMenuToggle(!menuToggle)}>Code</Link></li>
+                    <li><Link to={process.env.PUBLIC_URL + '/hivemind'} onClick={() => setMenuToggle(!menuToggle)}>Hivemind</Link></li>
+                    <li><Link to={process.env.PUBLIC_URL + '/vlog'} onClick={() => setMenuToggle(!menuToggle)}>Vlog</Link></li>
                 </div>
             </div>
         </div>

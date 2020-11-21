@@ -48,11 +48,11 @@ class App extends React.Component {
             <div>
               <Switch>
                 <Route exact path={process.env.PUBLIC_URL + '/react-boilerplate'}>
-                  <Redirect to={process.env.PUBLIC_URL + '/login'} />
+                  <Redirect to={process.env.PUBLIC_URL + '/Home'} />
                 </Route>
   
                 <Route exact path="/">
-                  <Redirect to={process.env.PUBLIC_URL + '/login'} />
+                  <Redirect to={process.env.PUBLIC_URL + '/Home'} />
                 </Route>
   
                 <Route exact path={process.env.PUBLIC_URL + '/'} component={Home}></Route>
