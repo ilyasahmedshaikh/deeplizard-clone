@@ -16,80 +16,42 @@ function Footer() {
 
     return(
         <div>
-            <div className="footer">
+            <footer>
                 <div className="container">
-                    <div className="row">
-
-                        <div className="col-md-6">
-                            <div className="first">
-                                <h3>Logo</h3>
-                                <p className="pt-2">Establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar que tiene una distribución menos normal de las letras contrario de usar textos como por ejemplo .</p>
-
-                                <div className="pt-4">
-                                    <a className="press" href="#">Read More</a>
-                                </div>
-                            </div>
+                    <div className="row align-items-center">
+                        <div className="col-10 float-sm-left text-muted">
+                            <ul className="list-inline mb-0 links">
+                                <li className="list-inline-item text-uppercase">
+                                    ©deeplizard
+                                </li>
+                                <li className="list-inline-item">
+                                    <a className="text-muted" href="https://youtube.com/deeplizard" target="_blank">YouTube</a>
+                                </li>
+                                <li className="list-inline-item">
+                                    <a className="text-muted" href="https://youtube.com/deeplizardvlog" target="_blank">Vlog</a>
+                                </li>
+                                <li className="list-inline-item">
+                                    <a className="text-muted" href="/hivemind">Hivemind</a>
+                                </li>
+                                <li className="list-inline-item">
+                                    <a className="text-muted" href="/resources">Code</a>
+                                </li>
+                                <li className="list-inline-item">
+                                    <a className="text-muted" href="/privacy">Privacy</a>
+                                </li>
+                                <li className="list-inline-item">
+                                    <a className="text-muted" href="/terms">Terms</a>
+                                </li>
+                            </ul>
                         </div>
-
-                        <div className="col-md-3">
-                            <div className="first">
-                                <h3>
-                                    <span>COMPANY</span>
-                                    <a onClick={() => openAccordian('company')}>
-                                        {
-                                            itemToggle == 'company' ?
-                                            <i class="fas fa-chevron-up"></i>
-                                            :
-                                            <i class="fas fa-chevron-down"></i>
-                                        }
-                                    </a>
-                                </h3>
-                                <ul className={"" + (itemToggle == 'company' ? 'open' : '')}>
-                                    <li><a href="#">Our History</a></li>
-                                    <li><a href="#"> Investor Relations & Policies</a></li>
-                                    <li><a href="#">Careers</a></li>
-                                    <li><a href="#">Gift Cards</a></li>
-                                    <li><a href="#">Sale 30%</a></li>
-                                    <li><a href="#">Merchandise Store</a></li>
-                                </ul>
-                            </div>
-                        </div> 
-
-                        <div className="col-md-3">
-                            <div className="first">
-                                <h3>
-                                    <span>STAY CONNECTED</span>
-                                    <a onClick={() => openAccordian('stay-connected')}>
-                                        {
-                                            itemToggle == 'stay-connected' ?
-                                            <i class="fas fa-chevron-up"></i>
-                                            :
-                                            <i class="fas fa-chevron-down"></i>
-                                        }
-                                    </a>
-                                </h3>
-                                <ul className={"" + (itemToggle == 'stay-connected' ? 'open' : '')}>
-                                    <li><a href="#">Facebook</a></li>
-                                    <li><a href="#">Instagram</a></li>
-                                    <li><a href="#">Twitter</a></li>
-                                    <li><a href="#">Messenger</a></li>
-                                    <li><a href="#">Our App</a></li>
-                                    <li><a href="#">111-235-0101</a></li>
-                                </ul>
-                            </div>
+                        <div className="col-2 text-left text-sm-right">
+                            <a id="back-to-the-top">
+                                <i className="fas fa-chevron-up"></i>
+                            </a>
                         </div>
-
-                        <div className="seprator"></div>
-
-                        <div className="col-md-12">
-                            <div className="last pt-4">
-                                <p>© Copyright 2020, Logo. All Rights Reserved.</p>
-                            </div>
-                        </div>
-                       
                     </div>
                 </div>
-            </div>
+            </footer>
         </div>
     );
 }

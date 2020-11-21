@@ -3,11 +3,11 @@ import './App.css';
 
 import Header from './layout/Header';
 import Footer from './layout/Footer';
+
 import Home from './components/Home';
-import Services from './components/Services';
-import About from './components/About';
-import Contact from './components/Contact';
-import Login from './components/Login';
+import Code from './components/Code';
+import Hivemind from './components/Hivemind';
+import Vlog from './components/Vlog';
 
 import { 
   BrowserRouter as Router, 
@@ -45,7 +45,7 @@ class App extends React.Component {
           <Header />
             
             {/* all components */} 
-            <div className="container">
+            <div>
               <Switch>
                 <Route exact path={process.env.PUBLIC_URL + '/react-boilerplate'}>
                   <Redirect to={process.env.PUBLIC_URL + '/login'} />
@@ -57,10 +57,9 @@ class App extends React.Component {
   
                 <Route exact path={process.env.PUBLIC_URL + '/'} component={Home}></Route>
                 <Route exact path={process.env.PUBLIC_URL + '/home'} component={Home}></Route>
-                <Route exact path={process.env.PUBLIC_URL + '/services'} component={Services}></Route>
-                <Route exact path={process.env.PUBLIC_URL + '/about'} component={About}></Route>
-                <Route exact path={process.env.PUBLIC_URL + '/contact'} component={Contact}></Route>
-                <Route exact path={process.env.PUBLIC_URL + '/login'} component={Login}></Route>
+                <Route exact path={process.env.PUBLIC_URL + '/code'} component={Code}></Route>
+                <Route exact path={process.env.PUBLIC_URL + '/hivemind'} component={Hivemind}></Route>
+                <Route exact path={process.env.PUBLIC_URL + '/vlog'} component={Vlog}></Route>
               </Switch>
             </div>
   

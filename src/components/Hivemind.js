@@ -1,7 +1,7 @@
 import React from 'react';
-import '../assets/css/services.css';
+import '../assets/css/hivemind.css';
 
-class Services extends React.Component {
+class Hivemind extends React.Component {
 
     constructor(props) {
         super(props);
@@ -13,7 +13,7 @@ class Services extends React.Component {
     } 
 
     componentDidMount() {
-        console.log("Services");
+        console.log("Hivemind");
 
         this.setState({
             loading: true
@@ -23,9 +23,9 @@ class Services extends React.Component {
     render() {
         return(
             <div>
-                <p>Services Services Services</p>
+                <p>Hivemind</p>
             </div>
         );
     }
 }
-export default Services;
+export default Hivemind;

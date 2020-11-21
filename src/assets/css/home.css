@@ -1,0 +1,145 @@
+/* slider section  */
+
+.slider {
+    padding: 8rem 6rem 12rem 8rem;
+}
+
+.slider h1 {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.slider h4 {
+    line-height: 25px;
+    font-size: 25px;
+    margin-bottom: 0.25rem;
+    font-family: "droid serif", serif;
+    font-style: italic;
+}
+
+/* after-slider section  */
+
+.after-slider {
+    padding: 3.5rem 0rem;
+    background-color: #2c2f32f7;
+}
+
+.after-slider h2
+{
+    font-weight: 800;
+    font-size: 2.8rem;
+    text-align: right;
+    line-height: 1;
+}
+
+/* courses section  */
+
+.courses {
+    padding: 12rem 0rem 8rem 0rem;
+    background: linear-gradient(rgba(255, 255, 255, .7), rgba(255, 255, 255, .99)), url(../img/courses-bg.jpg);
+    background-position: 50% 40%;
+}
+
+.courses .course {
+    text-align: center;
+}
+
+.courses h4
+{
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.courses h1 {
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.courses p
+{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+/* welcome section  */
+
+.welcome-section {
+    padding-bottom: 7rem;
+}
+
+.welcome-section p
+{
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.welcome-section .special-text
+{
+    font-size: 3rem;
+    font-weight: 800;
+    color: #4b9097;
+}
+
+/* deeplearning section */
+
+.deeplearning-section {
+    padding: 3.5rem 0rem;
+    background-color: #2c2f32f7;
+}
+
+.deeplearning-section h2 {
+    font-weight: 800;
+    font-size: 2.8rem;
+    text-align: right;
+    line-height: 1;
+}
+
+.deeplearning-section p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+/* multiple courses section  */
+
+.multiple-courses .item
+{
+    padding: 2rem 0rem 3rem 0.25rem;
+}
+
+.multiple-courses .item h2 {
+    font-weight: 600;
+}
+
+.multiple-courses .lead
+{
+    font-weight: lighter;
+    font-size: 1.1rem;
+}
+
+.multiple-courses .item:nth-child(even) {
+    background-color: #fafafa;
+}
+
+@media (max-width: 600px) {
+    .slider {
+        padding: 4rem 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .slider h4 { font-size: 1rem !important; }
+
+    .slider h1 { font-size: 3rem; }
+
+    .after-slider h2 { font-size: 1.5rem; }
+
+    .courses { padding: 10rem 0rem 8rem 0rem; }
+
+    .welcome-section p { font-size: 1.75rem; }
+
+    .welcome-section .special-text { font-size: 2.5rem; }
+
+    .deeplearning-section h2 { font-size: 1.5rem; }
+
+    .multiple-courses .item img { padding-bottom: 20px; }
+}

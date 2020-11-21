@@ -1,7 +1,7 @@
 import React from 'react';
-import '../assets/css/about.css';
+import '../assets/css/vlog.css';
 
-class About extends React.Component {
+class Vlog extends React.Component {
 
     constructor(props) {
         super(props);
@@ -13,19 +13,17 @@ class About extends React.Component {
     } 
 
     componentDidMount() {
-        console.log("About");
-
-        this.setState({
-            loading: true
-        });
+        console.log("Vlog");
     }
 
     render() {
         return(
             <div>
-                <p>About About About</p>
+                <section>
+                    <p>Vlog</p>
+                </section>
             </div>
         );
     }
 }
-export default About;
+export default Vlog;

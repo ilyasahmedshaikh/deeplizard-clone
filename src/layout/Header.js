@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import '../assets/css/header.css'
-// import logo from '../assets/img/logo_465x320.png'
+import logo from '../../src/assets/img/deeplizard-1.png'
 
 function Header() {
 
@@ -9,8 +9,31 @@ function Header() {
 
     return(
         <div>
-            <div className="header">
+            <div class="top-bar clearfix">
+                <div class="container-lg">
+                    <div class="float-sm-left">
+                        <ul class="list-inline mb-0 links">
+                            <li class="list-inline-item">
+                                <a href="https://youtube.com/deeplizard" target="_blank">YouTube</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://youtube.com/deeplizardvlog" target="_blank">Vlog</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="/hivemind">Hivemind</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="/resources">Code</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="/create-quiz-question">Create a Quiz Question</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
 
+            <div className="header">
                 <div className={"mobile-menu-toggle " + (menuToggle ? 'change' : '')} onClick={() => setMenuToggle(!menuToggle)}>
                     <div className="bar1"></div>
                     <div className="bar2"></div>
@@ -21,18 +44,21 @@ function Header() {
                     <div className="row">
                         <div className="col-sm-4 col-md-4 col-lg-4">
                             <div className='logo'>
-                                <a href="#"><i class="fas fa-dice-d20"></i>ReactJS</a>
+                                <Link to={process.env.PUBLIC_URL + '/home'}>
+                                    <img src={logo} />
+                                    <span class="pl-2">DEEPLIZARD</span>
+                                </Link>
                             </div>
                         </div>
 
                         <div className="col-sm-8 col-md-8 col-lg-8">
                             <div className="nav">
                                  <ul>
-                                    <li><Link to={process.env.PUBLIC_URL + '/home'}>Home</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + '/services'}>Services</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + '/about'}>About</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + '/contact'}>Contact</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + '/login'}>Login</Link></li>
+                                    {/* <li><Link to={process.env.PUBLIC_URL + '/home'}>Home</Link></li> */}
+                                    <li><Link>Courses</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + '/code'}>Code</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + '/hivemind'}>Hivemind</Link></li>
+                                    <li><Link to={process.env.PUBLIC_URL + '/vlog'}>Vlog</Link></li>
                                  </ul>
                             </div>
                         </div>
@@ -40,18 +66,11 @@ function Header() {
                 </div>
 
                 <div className={"mobile-menu sidenav " + (menuToggle ? 'open' : 'close')}>
-
-                    <div className="col-sm-4 col-md-4 col-lg-4">
-                        <div className='logo'>
-                            <a href="#"><i class="fas fa-dice-d20"></i></a>
-                        </div>
-                    </div>
-
-                    <li><Link to={process.env.PUBLIC_URL + '/home'} onClick={() => setMenuToggle(!menuToggle)}>Home</Link></li>
-                    <li><Link to={process.env.PUBLIC_URL + '/services'} onClick={() => setMenuToggle(!menuToggle)}>Services</Link></li>
-                    <li><Link to={process.env.PUBLIC_URL + '/about'} onClick={() => setMenuToggle(!menuToggle)}>About</Link></li>
-                    <li><Link to={process.env.PUBLIC_URL + '/contact'} onClick={() => setMenuToggle(!menuToggle)}>Contact</Link></li>
-                    <li><Link to={process.env.PUBLIC_URL + '/login'} onClick={() => setMenuToggle(!menuToggle)}>Login</Link></li>
+                    {/* <li><Link to={process.env.PUBLIC_URL + '/home'}>Home</Link></li> */}
+                    <li><Link>Courses</Link></li>
+                    <li><Link to={process.env.PUBLIC_URL + '/code'}>Code</Link></li>
+                    <li><Link to={process.env.PUBLIC_URL + '/hivemind'}>Hivemind</Link></li>
+                    <li><Link to={process.env.PUBLIC_URL + '/vlog'}>Vlog</Link></li>
                 </div>
             </div>
         </div>

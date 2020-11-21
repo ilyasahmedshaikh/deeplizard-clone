@@ -1,85 +1,39 @@
-.footer{
-    background-color: #191919;
-    padding: 3% 0 1% 0;
-    background-repeat: no-repeat;
+footer {
+    padding: 2rem  0 0 0;
+    box-shadow: 0 -3px 5px -5px #80808085;
+    font-family: montserrat, sans-serif;
+    font-size: .85rem;
 }
 
-.footer .first
-{
-    padding: 10px 0;
+footer .list-inline-item:not(:last-child):before {
+    content: "";
+    position: absolute;
+    right: -10px;
+    width: 3px;
+    height: 40%;
+    top: 33%;
+    background: rgba(0, 0, 0, .1);
 }
 
-.footer .first h3{
-    font-size: 17px;
-    color: white;
-    font-weight: bold;
+footer .list-inline-item {
+    position: relative;
+    padding: 0 10px!important;
 }
 
-.footer .first h3 a {
-    float: right;
+footer #back-to-the-top {
+    cursor: pointer;
+    font-size: 1rem;
 }
 
-.footer .first p{
-    font-size: 13px;
-    color: #c1c1c1;
+footer a {
+    color: inherit;
 }
 
-.footer .press{
-    margin-top: 5%;
+footer a:hover {
+    text-decoration: none;
+    color: inherit;
 }
 
-.footer .press a{
-    color: white;
-    background-color: red;
-    border-radius: 3px;
-    padding: 5px 10px;
-    font-size: 13px;
-}
-
-.footer .press a:hover{
-    background-color: white;
-    color: black;
-    opacity: 0.5s;
-    transition: 0.5s;
-}
-
-.footer .first ul{
-    list-style: none;
-    padding-left: 0;
-}
-
-.footer .first ul {
-    display: none;
-}
-
-.footer .first ul.open {
-    display: block;
-}
-
-.footer .first li{
-    padding-top: 9px;
-}
-
-.footer .first li a{
-    color: white;
-    font-size: 14px;
-}
-
-.footer .first li a:hover{
-    color: #c1c1c1;
-    opacity: 0.5s;
-    transition: 0.5s;
-}
-
-.footer .seprator{
-    width: 100%;
-    background-color: #ffffff1f;
-    height: 2px;
-    margin-top: 3%;
-}
-
-.footer .last p{
-   text-align: center;
-    color: grey;
-    font-size: 15px;
+.list-inline-item:not(:last-child) {
+    margin-right: .5rem;
 }

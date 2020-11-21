@@ -1,21 +1,29 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800|Open+Sans:300,300i,400,400i,600,700,800|Droid+Serif:400,400i";
+
 :root {
   --color-blue: #0d3de5;
-  --color-black: #020202;
+  --color-black: #343a40;
   --color-gry: #c1c1c1;
   --color-white: #ffff;
 }
 
 body
 {
-  font-family: 'Roboto', sans-serif !important;
+  font-family: 'Montserrat', sans-serif !important;
   overflow-x: hidden;
   margin-bottom: 0 auto;
-  /* background: #f2f2f2; */
   font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
 }
 
-p, h1 ,h2 ,h3, h4, h5, h6 {
-  margin: 0 !important;
+p {
+  /* margin: 0 !important; */
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
 }
 
 .all-center {
@@ -25,24 +33,75 @@ p, h1 ,h2 ,h3, h4, h5, h6 {
   transform: translate(-50%, -50%);
 }
 
-a{
+a {
   text-decoration: none !important;
 }
 
-.press {
-  border: 1px solid var(--color-blue);
-  border-radius: 5px;
-  padding: 7px 12px;
-  font-size: 13px;
-  background-color: var(--color-blue);
+.btn-c {
+  font-size: 1rem;
+  line-height: 1.5;
+  border: 2px solid var(--color-black);
+  background-color: var(--color-black);
+  padding: 10px 30px;
+  border-radius: 25px;
   color: var(--color-white);
   transition: 0.5s;
+  cursor: pointer;
+  position: relative;
+  top: 10px;
 }
 
-.press:hover{
+.btn-c:hover{
   background-color: var(--color-white);
-  border: 1px solid var(--color-blue);
-  opacity: 0.5s;
+  border: 2px solid var(--color-black);
   transition: 0.5s;
-  color: var(--color-blue);
+  color: var(--color-black);
+}
+
+.btn-c.outlined {
+  font-size: 1rem;
+  line-height: 1.5;
+  border: 2px solid var(--color-black);
+  background-color: var(--color-white);
+  padding: 10px 30px;
+  border-radius: 25px;
+  color: var(--color-black);
+  transition: 0.5s;
+  cursor: pointer;
+  position: relative;
+  top: 10px;
+}
+
+.btn-c.outlined:hover{
+  background-color: var(--color-black);
+  border: 2px solid var(--color-black);
+  transition: 0.5s;
+  color: var(--color-white);
+}
+
+.special-text {
+  font-weight: 800;
+  color: #ffb3d7;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.info {
+  font-weight: 500;
+  font-family: "droid serif", serif;
+  font-style: italic;
+  color: gray;
+}
+
+.scalable {
+  transform: scale(1);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.scalable:hover {
+  transform: scale(1.05);
 }

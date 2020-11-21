@@ -1,7 +1,7 @@
 import React from 'react';
-import '../assets/css/login.css';
+import '../assets/css/code.css';
 
-class Login extends React.Component {
+class Code extends React.Component {
 
     constructor(props) {
         super(props);
@@ -13,7 +13,7 @@ class Login extends React.Component {
     } 
 
     componentDidMount() {
-        console.log("Login");
+        console.log("Code");
 
         this.setState({
             loading: true
@@ -23,9 +23,9 @@ class Login extends React.Component {
     render() {
         return(
             <div>
-                <p>Login Login Login</p>
+                <p>Code</p>
             </div>
         );
     }
 }
-export default Login;
+export default Code;
