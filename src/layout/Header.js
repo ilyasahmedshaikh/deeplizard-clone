@@ -6,6 +6,7 @@ import logo from '../../src/assets/img/deeplizard-1.png'
 function Header() {
 
     const [menuToggle, setMenuToggle] = useState(false);
+    const [childMenuToggle, setChildMenuToggle] = useState(false);
 
     return(
         <div>
@@ -53,12 +54,29 @@ function Header() {
 
                         <div className="col-sm-8 col-md-8 col-lg-8">
                             <div className="nav">
-                                 <ul>
+                                 <ul className="parent-nav">
                                     {/* <li><Link to={process.env.PUBLIC_URL + '/home'}>Home</Link></li> */}
-                                    <li><Link>Courses</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + '/code'}>Code</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + '/hivemind'}>Hivemind</Link></li>
-                                    <li><Link to={process.env.PUBLIC_URL + '/vlog'}>Vlog</Link></li>
+                                    <li>
+                                        <Link className="bold" onClick={() => setChildMenuToggle(!childMenuToggle)}>Courses</Link>
+                                        <ul className={"child-nav " + (childMenuToggle? "open" : "")}>
+                                            <li className="head">DEEP LEARNING COURSES</li>
+                                            <li>Machine Learning & Deep Learning Fundamentals</li>
+                                            <li>Keras - Python Deep Learning Neural Network API</li>
+                                            <li>Neural Network Programming - Deep Learning with PyTorch</li>
+                                            <li>Reinforcement Learning - Goal Oriented Intelligence</li>
+                                            <li className="head">Other Courses</li>
+                                            <li>Data Science - Learn to code for beginners</li>
+                                            <li>Trading - Advanced Order Types with Coinbase</li>
+                                            <li>Waves - Proof of Stake Blockchain Platform and DEX</li>
+                                            <li>Zcash - Privacy Based Blockchain Platform</li>
+                                            <li>Steemit - Blockchain Powered Social Network</li>
+                                            <li>Jaxx - Blockchain Interface and Crypto Wallet</li>
+                                            <li>AWS - Amazon Web Services EC2 Management</li>
+                                        </ul>
+                                    </li>
+                                    <li><Link className="bold" to={process.env.PUBLIC_URL + '/code'}>Code</Link></li>
+                                    <li><Link className="bold" to={process.env.PUBLIC_URL + '/hivemind'}>Hivemind</Link></li>
+                                    <li><Link className="bold" to={process.env.PUBLIC_URL + '/vlog'}>Vlog</Link></li>
                                  </ul>
                             </div>
                         </div>
@@ -66,12 +84,31 @@ function Header() {
                 </div>
 
                 <div className={"mobile-menu sidenav " + (menuToggle ? 'open' : 'close')}>
-                    {/* <li><Link to={process.env.PUBLIC_URL + '/home'}>Home</Link></li> */}
-                    <li><Link to={process.env.PUBLIC_URL + '/home'} onClick={() => setMenuToggle(!menuToggle)}>Home</Link></li>
-                    <li><Link>Courses</Link></li>
-                    <li><Link to={process.env.PUBLIC_URL + '/code'} onClick={() => setMenuToggle(!menuToggle)}>Code</Link></li>
-                    <li><Link to={process.env.PUBLIC_URL + '/hivemind'} onClick={() => setMenuToggle(!menuToggle)}>Hivemind</Link></li>
-                    <li><Link to={process.env.PUBLIC_URL + '/vlog'} onClick={() => setMenuToggle(!menuToggle)}>Vlog</Link></li>
+                    <ul className="parent-nav">
+                        {/* <li><Link to={process.env.PUBLIC_URL + '/home'}>Home</Link></li> */}
+                        <li><Link to={process.env.PUBLIC_URL + '/home'} onClick={() => setMenuToggle(!menuToggle)}>Home</Link></li>
+                        <li>
+                            <Link onClick={() => setChildMenuToggle(!childMenuToggle)}>Courses</Link>
+                            <ul className={"child-nav " + (childMenuToggle? "open" : "")}>
+                                <li className="head">DEEP LEARNING COURSES</li>
+                                <li class="text-truncate">Machine Learning & Deep Learning Fundamentals</li>
+                                <li class="text-truncate">Keras - Python Deep Learning Neural Network API</li>
+                                <li class="text-truncate">Neural Network Programming - Deep Learning with PyTorch</li>
+                                <li class="text-truncate">Reinforcement Learning - Goal Oriented Intelligence</li>
+                                <li className="head">Other Courses</li>
+                                <li class="text-truncate">Data Science - Learn to code for beginners</li>
+                                <li class="text-truncate">Trading - Advanced Order Types with Coinbase</li>
+                                <li class="text-truncate">Waves - Proof of Stake Blockchain Platform and DEX</li>
+                                <li class="text-truncate">Zcash - Privacy Based Blockchain Platform</li>
+                                <li class="text-truncate">Steemit - Blockchain Powered Social Network</li>
+                                <li class="text-truncate">Jaxx - Blockchain Interface and Crypto Wallet</li>
+                                <li class="text-truncate">AWS - Amazon Web Services EC2 Management</li>
+                            </ul>
+                        </li>
+                        <li><Link to={process.env.PUBLIC_URL + '/code'} onClick={() => setMenuToggle(!menuToggle)}>Code</Link></li>
+                        <li><Link to={process.env.PUBLIC_URL + '/hivemind'} onClick={() => setMenuToggle(!menuToggle)}>Hivemind</Link></li>
+                        <li><Link to={process.env.PUBLIC_URL + '/vlog'} onClick={() => setMenuToggle(!menuToggle)}>Vlog</Link></li>
+                    </ul>
                 </div>
             </div>
         </div>
