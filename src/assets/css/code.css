@@ -1,0 +1,16 @@
+.code-section img {
+    width: 100%;
+}
+
+.resources p
+{
+    font-size: 1.08rem;
+    font-weight: 100;
+}
+
+.collapse-item {
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #ebebeb;
+    padding: 10px 0 10px 0;
+}

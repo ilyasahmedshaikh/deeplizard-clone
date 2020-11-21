@@ -79,6 +79,8 @@ a {
   color: var(--color-white);
 }
 
+.cursor-pointer { cursor: pointer;}
+
 .special-text {
   font-weight: 800;
   color: #ffb3d7;
