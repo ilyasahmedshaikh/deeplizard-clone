@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/deeplizard-clone/static/css/main.7f8180fe.chunk.css",
+    "main.js": "/deeplizard-clone/static/js/main.9762f7d8.chunk.js",
+    "main.js.map": "/deeplizard-clone/static/js/main.9762f7d8.chunk.js.map",
+    "runtime-main.js": "/deeplizard-clone/static/js/runtime-main.f4acb264.js",
+    "runtime-main.js.map": "/deeplizard-clone/static/js/runtime-main.f4acb264.js.map",
+    "static/css/2.437d98bc.chunk.css": "/deeplizard-clone/static/css/2.437d98bc.chunk.css",
+    "static/js/2.d6015e31.chunk.js": "/deeplizard-clone/static/js/2.d6015e31.chunk.js",
+    "static/js/2.d6015e31.chunk.js.map": "/deeplizard-clone/static/js/2.d6015e31.chunk.js.map",
+    "index.html": "/deeplizard-clone/index.html",
+    "precache-manifest.fb8c0a4664b383984a4697dc5d7a4212.js": "/deeplizard-clone/precache-manifest.fb8c0a4664b383984a4697dc5d7a4212.js",
+    "service-worker.js": "/deeplizard-clone/service-worker.js",
+    "static/css/2.437d98bc.chunk.css.map": "/deeplizard-clone/static/css/2.437d98bc.chunk.css.map",
+    "static/css/main.7f8180fe.chunk.css.map": "/deeplizard-clone/static/css/main.7f8180fe.chunk.css.map",
+    "static/js/2.d6015e31.chunk.js.LICENSE.txt": "/deeplizard-clone/static/js/2.d6015e31.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4acb264.js",
+    "static/css/2.437d98bc.chunk.css",
+    "static/js/2.d6015e31.chunk.js",
+    "static/css/main.7f8180fe.chunk.css",
+    "static/js/main.9762f7d8.chunk.js"
+  ]
+}
