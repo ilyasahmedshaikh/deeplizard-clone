@@ -20,7 +20,7 @@
 .slider .content {
     position: absolute;
     top: 25%;
-    left: 10%;
+    left: 20%;
 }
 
 #tsparticles {
@@ -156,4 +156,14 @@
     #tsparticles {
         height: 300px;
     }
+
+    .slider .content { left: 10%; }
+}
+
+@media (max-width: 1440px) {
+    .slider .content{ left: 12%; }
+}
+
+@media (max-width: 1280px) {
+    .slider .content{ left: 6%; }
 }
