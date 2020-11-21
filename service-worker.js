@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/deeplizard-clone/precache-manifest.fb8c0a4664b383984a4697dc5d7a4212.js"
+  "/deeplizard-clone/precache-manifest.baa7e95b43ca8e82273f8dda2d403500.js"
 );
 
 self.addEventListener('message', (event) => {
