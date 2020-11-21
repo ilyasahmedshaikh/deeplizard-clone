@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/deeplizard-clone/static/css/main.8bf5260d.chunk.css",
-    "main.js": "/deeplizard-clone/static/js/main.abc72857.chunk.js",
-    "main.js.map": "/deeplizard-clone/static/js/main.abc72857.chunk.js.map",
+    "main.css": "/deeplizard-clone/static/css/main.74245ece.chunk.css",
+    "main.js": "/deeplizard-clone/static/js/main.888c63d2.chunk.js",
+    "main.js.map": "/deeplizard-clone/static/js/main.888c63d2.chunk.js.map",
     "runtime-main.js": "/deeplizard-clone/static/js/runtime-main.f4acb264.js",
     "runtime-main.js.map": "/deeplizard-clone/static/js/runtime-main.f4acb264.js.map",
     "static/css/2.437d98bc.chunk.css": "/deeplizard-clone/static/css/2.437d98bc.chunk.css",
-    "static/js/2.332b7918.chunk.js": "/deeplizard-clone/static/js/2.332b7918.chunk.js",
-    "static/js/2.332b7918.chunk.js.map": "/deeplizard-clone/static/js/2.332b7918.chunk.js.map",
+    "static/js/2.1bd21777.chunk.js": "/deeplizard-clone/static/js/2.1bd21777.chunk.js",
+    "static/js/2.1bd21777.chunk.js.map": "/deeplizard-clone/static/js/2.1bd21777.chunk.js.map",
     "index.html": "/deeplizard-clone/index.html",
-    "precache-manifest.baa7e95b43ca8e82273f8dda2d403500.js": "/deeplizard-clone/precache-manifest.baa7e95b43ca8e82273f8dda2d403500.js",
+    "precache-manifest.92ee4a5ddf54c7b3e4e21fc253de8d18.js": "/deeplizard-clone/precache-manifest.92ee4a5ddf54c7b3e4e21fc253de8d18.js",
     "service-worker.js": "/deeplizard-clone/service-worker.js",
     "static/css/2.437d98bc.chunk.css.map": "/deeplizard-clone/static/css/2.437d98bc.chunk.css.map",
-    "static/css/main.8bf5260d.chunk.css.map": "/deeplizard-clone/static/css/main.8bf5260d.chunk.css.map",
-    "static/js/2.332b7918.chunk.js.LICENSE.txt": "/deeplizard-clone/static/js/2.332b7918.chunk.js.LICENSE.txt",
+    "static/css/main.74245ece.chunk.css.map": "/deeplizard-clone/static/css/main.74245ece.chunk.css.map",
+    "static/js/2.1bd21777.chunk.js.LICENSE.txt": "/deeplizard-clone/static/js/2.1bd21777.chunk.js.LICENSE.txt",
     "static/media/ad.png": "/deeplizard-clone/static/media/ad.3551328d.png",
     "static/media/calculus-curve-tangent-line.png": "/deeplizard-clone/static/media/calculus-curve-tangent-line.a1a0af50.png",
     "static/media/home.css": "/deeplizard-clone/static/media/courses-bg.3738acd2.jpg",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.f4acb264.js",
     "static/css/2.437d98bc.chunk.css",
-    "static/js/2.332b7918.chunk.js",
-    "static/css/main.8bf5260d.chunk.css",
-    "static/js/main.abc72857.chunk.js"
+    "static/js/2.1bd21777.chunk.js",
+    "static/css/main.74245ece.chunk.css",
+    "static/js/main.888c63d2.chunk.js"
   ]
 }
