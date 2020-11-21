@@ -57,7 +57,9 @@ function Header() {
                                  <ul className="parent-nav">
                                     {/* <li><Link to={process.env.PUBLIC_URL + '/home'}>Home</Link></li> */}
                                     <li>
-                                        <Link className="bold" onClick={() => setChildMenuToggle(!childMenuToggle)}>Courses</Link>
+                                        <Link className="bold" onClick={() => setChildMenuToggle(!childMenuToggle)}>
+                                            Courses <i class="fas fa-chevron-down pl-2"></i>
+                                        </Link>
                                         <ul className={"child-nav " + (childMenuToggle? "open" : "")}>
                                             <li className="head">DEEP LEARNING COURSES</li>
                                             <li>Machine Learning & Deep Learning Fundamentals</li>
@@ -88,7 +90,9 @@ function Header() {
                         {/* <li><Link to={process.env.PUBLIC_URL + '/home'}>Home</Link></li> */}
                         <li><Link to={process.env.PUBLIC_URL + '/home'} onClick={() => setMenuToggle(!menuToggle)}>Home</Link></li>
                         <li>
-                            <Link onClick={() => setChildMenuToggle(!childMenuToggle)}>Courses</Link>
+                            <Link onClick={() => setChildMenuToggle(!childMenuToggle)}>
+                                Courses <i class="fas fa-chevron-down pl-2"></i>
+                            </Link>
                             <ul className={"child-nav " + (childMenuToggle? "open" : "")}>
                                 <li className="head">DEEP LEARNING COURSES</li>
                                 <li class="text-truncate">Machine Learning & Deep Learning Fundamentals</li>
