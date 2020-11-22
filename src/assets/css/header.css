@@ -99,13 +99,6 @@ li.head { font-weight: bold; padding: 10px 0 10px 0; }
     text-transform: uppercase;
 }
 
-.header .nav li a:hover
-{
-    color: var(--color-orange);
-    transition: 0.5s;
-    opacity: 0.5s;
-}
-
 .header .parent-nav li {
     position: relative;
 }
@@ -126,6 +119,19 @@ li.head { font-weight: bold; padding: 10px 0 10px 0; }
  
 .header .child-nav.open {
     display: block;
+}
+
+.header .child-nav li a
+{
+    font-size: 15px;
+    text-transform: capitalize;
+    padding: 0;
+    color: var(--color-black);
+}
+
+.header .child-nav li a:hover {
+    font-weight: 600;
+    color: var(--color-black);
 }
 
 /* menu button  */
@@ -251,5 +257,9 @@ li.head { font-weight: bold; padding: 10px 0 10px 0; }
 
     .sidenav a:hover { 
         color: var(--color-white); 
+    }
+
+    .header .parent-nav li i {
+        font-size: 15px;
     }
 }

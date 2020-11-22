@@ -62,18 +62,18 @@ function Header() {
                                         </Link>
                                         <ul className={"child-nav " + (childMenuToggle? "open" : "")}>
                                             <li className="head">DEEP LEARNING COURSES</li>
-                                            <li>Machine Learning & Deep Learning Fundamentals</li>
-                                            <li>Keras - Python Deep Learning Neural Network API</li>
-                                            <li>Neural Network Programming - Deep Learning with PyTorch</li>
-                                            <li>Reinforcement Learning - Goal Oriented Intelligence</li>
+                                            <li><a className="text-truncate" href="#">Machine Learning & Deep Learning Fundamentals</a></li>
+                                            <li><a className="text-truncate" href="#">Keras - Python Deep Learning Neural Network API</a></li>
+                                            <li><a className="text-truncate" href="#">Neural Network Programming - Deep Learning with PyTorch</a></li>
+                                            <li><a className="text-truncate" href="#">Reinforcement Learning - Goal Oriented Intelligence</a></li>
                                             <li className="head">Other Courses</li>
-                                            <li>Data Science - Learn to code for beginners</li>
-                                            <li>Trading - Advanced Order Types with Coinbase</li>
-                                            <li>Waves - Proof of Stake Blockchain Platform and DEX</li>
-                                            <li>Zcash - Privacy Based Blockchain Platform</li>
-                                            <li>Steemit - Blockchain Powered Social Network</li>
-                                            <li>Jaxx - Blockchain Interface and Crypto Wallet</li>
-                                            <li>AWS - Amazon Web Services EC2 Management</li>
+                                            <li><a className="text-truncate" href="#">Data Science - Learn to code for beginners</a></li>
+                                            <li><a className="text-truncate" href="#">Trading - Advanced Order Types with Coinbase</a></li>
+                                            <li><a className="text-truncate" href="#">Waves - Proof of Stake Blockchain Platform and DEX</a></li>
+                                            <li><a className="text-truncate" href="#">Zcash - Privacy Based Blockchain Platform</a></li>
+                                            <li><a className="text-truncate" href="#">Steemit - Blockchain Powered Social Network</a></li>
+                                            <li><a className="text-truncate" href="#">Jaxx - Blockchain Interface and Crypto Wallet</a></li>
+                                            <li><a className="text-truncate" href="#">AWS - Amazon Web Services EC2 Management</a></li>
                                         </ul>
                                     </li>
                                     <li><Link className="bold" to={process.env.PUBLIC_URL + '/code'}>Code</Link></li>
@@ -95,18 +95,18 @@ function Header() {
                             </Link>
                             <ul className={"child-nav " + (childMenuToggle? "open" : "")}>
                                 <li className="head">DEEP LEARNING COURSES</li>
-                                <li class="text-truncate">Machine Learning & Deep Learning Fundamentals</li>
-                                <li class="text-truncate">Keras - Python Deep Learning Neural Network API</li>
-                                <li class="text-truncate">Neural Network Programming - Deep Learning with PyTorch</li>
-                                <li class="text-truncate">Reinforcement Learning - Goal Oriented Intelligence</li>
+                                <li><a className="text-truncate" href="#">Machine Learning & Deep Learning Fundamentals</a></li>
+                                <li><a className="text-truncate" href="#">Keras - Python Deep Learning Neural Network API</a></li>
+                                <li><a className="text-truncate" href="#">Neural Network Programming - Deep Learning with PyTorch</a></li>
+                                <li><a className="text-truncate" href="#">Reinforcement Learning - Goal Oriented Intelligence</a></li>
                                 <li className="head">Other Courses</li>
-                                <li class="text-truncate">Data Science - Learn to code for beginners</li>
-                                <li class="text-truncate">Trading - Advanced Order Types with Coinbase</li>
-                                <li class="text-truncate">Waves - Proof of Stake Blockchain Platform and DEX</li>
-                                <li class="text-truncate">Zcash - Privacy Based Blockchain Platform</li>
-                                <li class="text-truncate">Steemit - Blockchain Powered Social Network</li>
-                                <li class="text-truncate">Jaxx - Blockchain Interface and Crypto Wallet</li>
-                                <li class="text-truncate">AWS - Amazon Web Services EC2 Management</li>
+                                <li><a className="text-truncate" href="#">Data Science - Learn to code for beginners</a></li>
+                                <li><a className="text-truncate" href="#">Trading - Advanced Order Types with Coinbase</a></li>
+                                <li><a className="text-truncate" href="#">Waves - Proof of Stake Blockchain Platform and DEX</a></li>
+                                <li><a className="text-truncate" href="#">Zcash - Privacy Based Blockchain Platform</a></li>
+                                <li><a className="text-truncate" href="#">Steemit - Blockchain Powered Social Network</a></li>
+                                <li><a className="text-truncate" href="#">Jaxx - Blockchain Interface and Crypto Wallet</a></li>
+                                <li><a className="text-truncate" href="#">AWS - Amazon Web Services EC2 Management</a></li>
                             </ul>
                         </li>
                         <li><Link to={process.env.PUBLIC_URL + '/code'} onClick={() => setMenuToggle(!menuToggle)}>Code</Link></li>
