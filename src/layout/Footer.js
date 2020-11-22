@@ -3,16 +3,12 @@ import '../assets/css/footer.css';
 
 function Footer() {
 
-    const [itemToggle, setItemToggle] = useState('');
-
-    const openAccordian = (item) => {
-        if (item == itemToggle) {
-            setItemToggle('');
-        }
-        else {
-            setItemToggle(item);
-        }
-    }
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+        });
+      }
 
     return(
         <div>
@@ -45,7 +41,7 @@ function Footer() {
                             </ul>
                         </div>
                         <div className="col-2 text-left text-sm-right">
-                            <a id="back-to-the-top">
+                            <a id="back-to-the-top" onClick={() => scrollToTop()}>
                                 <i className="fas fa-chevron-up"></i>
                             </a>
                         </div>
