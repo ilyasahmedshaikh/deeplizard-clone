@@ -221,60 +221,117 @@ class Code extends React.Component {
                                             <div className="row">
                                                 <div className="col-12 col-md-2">
                                                     <a className="badge badge-dark">Latest Release</a>
-                                                    <div className="pt-2"><i class="fas fa-code-branch"></i> <span className="text-danger text-right">dfebcf1</span></div>
-                                                    <div className="pt-1"><i class="fas fa-tag"></i> v1.0.0</div>
+                                                    <div className="pt-2"><i class="fas fa-code-branch"></i> <span className="text-danger text-right">d65e982</span></div>
+                                                    <div className="pt-1"><i class="fas fa-tag"></i> v1.0.2</div>
                                                 </div>
                                                 <div className="col-12 col-md-10 pt-2">
-                                                    <h4><strong>Keras - Python Deep Learning Neural Network API  v1.0.0</strong></h4>
+                                                    <h4><strong>Deep Learning with Keras v1.0.2</strong></h4>
                                                     <h4>Files</h4>
                                                     <p>Files included in this release:</p>
-                                                    <div class="table-responsive">
-                                                        <table class="file-table table table-sm table-hover">
-                                                            <caption>Download zipped files
-                                                                <a href="https://www.patreon.com/posts/code-for-deep-19266563" target="_blank"> <span className="text-danger">here</span></a>.
-                                                            </caption>
-                                                            <thead>
-                                                                <tr>
-                                                                    <th class="d-none d-md-table-cell">#</th>
-                                                                    <th>Name</th>
-                                                                    <th>Size</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-
-                                                                <tr>
-                                                                    <td class="d-none d-md-table-cell"><code>1</code></td>
-                                                                    <td><code>Backpropagation-notebook-deeplizard.pdf </code></td>
-                                                                    <td><code>302.9 KB</code></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td class="d-none d-md-table-cell"><code>2</code></td>
-                                                                    <td><code>Backpropagation-notebook-deeplizard.tex </code></td>
-                                                                    <td><code>18.3 KB</code></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td class="d-none d-md-table-cell"><code>3</code></td>
-                                                                    <td><code>deep-learning-fundamentals-deeplizard.ipynb <span class="file-status badge badge-pill badge-light">passing</span></code></td>
-                                                                    <td><code>145.6 KB</code></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td class="d-none d-md-table-cell"><code>4</code></td>
-                                                                    <td><code>versions.ipynb <span class="file-status badge badge-pill badge-light">passing</span></code></td>
-                                                                    <td><code>1.9 KB</code></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td class="d-none d-md-table-cell"><code>5</code></td>
-                                                                    <td><code>MNIST 7 Convolution.xlsx </code></td>
-                                                                    <td><code>35.7 KB</code></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td class="d-none d-md-table-cell"><code>6</code></td>
-                                                                    <td><code>NN.PNG </code></td>
-                                                                    <td><code>30.8 KB</code></td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
+                                                    <table class="file-table table table-sm table-hover">
+                                                        <caption>Download zipped files
+                                                            <a href="https://www.patreon.com/posts/code-for-keras-1-19266488" target="_blank">here</a>.
+                                                        </caption>
+                                                        <thead>
+                                                            <tr>
+                                                                <th class="d-none d-md-table-cell">#</th>
+                                                                <th>Name</th>
+                                                                <th>Size</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="d-none d-md-table-cell"><code>1</code></td>
+                                                                <td><code>Part-1-tf.keras-deeplizard.ipynb <span class="file-status badge badge-pill badge-light">passing</span></code></td>
+                                                                <td><code>4.6 MB</code></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="d-none d-md-table-cell"><code>2</code></td>
+                                                                <td><code>versions.ipynb <span class="file-status badge badge-pill badge-light">passing</span></code></td>
+                                                                <td><code>1.8 KB</code></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="d-none d-md-table-cell"><code>3</code></td>
+                                                                <td><code>hello_app.py </code></td>
+                                                                <td><code>330.0 b</code></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="d-none d-md-table-cell"><code>4</code></td>
+                                                                <td><code>predict_app.py </code></td>
+                                                                <td><code>1.3 KB</code></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="d-none d-md-table-cell"><code>5</code></td>
+                                                                <td><code>README.txt </code></td>
+                                                                <td><code>149.0 b</code></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="d-none d-md-table-cell"><code>6</code></td>
+                                                                <td><code>sample_app.py </code></td>
+                                                                <td><code>121.0 b</code></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="d-none d-md-table-cell"><code>7</code></td>
+                                                                <td><code>hello.html </code></td>
+                                                                <td><code>783.0 b</code></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="d-none d-md-table-cell"><code>8</code></td>
+                                                                <td><code>predict-with-visuals.html </code></td>
+                                                                <td><code>2.8 KB</code></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="d-none d-md-table-cell"><code>9</code></td>
+                                                                <td><code>predict.html </code></td>
+                                                                <td><code>1.6 KB</code></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="d-none d-md-table-cell"><code>10</code></td>
+                                                                <td><code>medical_trial_model.h5 </code></td>
+                                                                <td><code>31.8 KB</code></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="d-none d-md-table-cell"><code>11</code></td>
+                                                                <td><code>my_model_weights.h5 </code></td>
+                                                                <td><code>17.5 KB</code></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="d-none d-md-table-cell"><code>12</code></td>
+                                                                <td><code>Observable-notebook.txt </code></td>
+                                                                <td><code>139.0 b</code></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="d-none d-md-table-cell"><code>13</code></td>
+                                                                <td><code>package-lock.json </code></td>
+                                                                <td><code>13.5 KB</code></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="d-none d-md-table-cell"><code>14</code></td>
+                                                                <td><code>package.json </code></td>
+                                                                <td><code>107.0 b</code></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="d-none d-md-table-cell"><code>15</code></td>
+                                                                <td><code>server.js </code></td>
+                                                                <td><code>304.0 b</code></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="d-none d-md-table-cell"><code>16</code></td>
+                                                                <td><code>imagenet_classes.js </code></td>
+                                                                <td><code>32.8 KB</code></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="d-none d-md-table-cell"><code>17</code></td>
+                                                                <td><code>predict-with-tfjs.html </code></td>
+                                                                <td><code>2.1 KB</code></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="d-none d-md-table-cell"><code>18</code></td>
+                                                                <td><code>predict.js </code></td>
+                                                                <td><code>2.1 KB</code></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
                                                 
                                                     <h4>Dependencies</h4>
                                                     <p>Dependencies used in this release:</p>
@@ -295,11 +352,7 @@ class Code extends React.Component {
                                                                 </tr>
                                                                 <tr>
                                                                     <td><code>tensorflow</code></td>
-                                                                    <td><code>2.1.0</code></td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td><code>keras</code></td>
-                                                                    <td><code>2.3.1</code></td>
+                                                                    <td><code>2.2.0</code></td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td><code>numpy</code></td>
