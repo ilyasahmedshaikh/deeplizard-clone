@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "02672dc04f0dd5ecd25962169207a2b8",
+    "revision": "9ac1b6f5c1336255cf2b32d387769f0b",
     "url": "/deeplizard-clone/index.html"
   },
   {
-    "revision": "a3144511b3a9ff2fbe97",
+    "revision": "7c86daa65c8603b53c79",
     "url": "/deeplizard-clone/static/css/2.437d98bc.chunk.css"
   },
   {
-    "revision": "1a0e46befe1a5972d5b1",
-    "url": "/deeplizard-clone/static/css/main.74245ece.chunk.css"
+    "revision": "5967d16fa0d2b8d69486",
+    "url": "/deeplizard-clone/static/css/main.7c0dbba4.chunk.css"
   },
   {
-    "revision": "a3144511b3a9ff2fbe97",
-    "url": "/deeplizard-clone/static/js/2.1bd21777.chunk.js"
+    "revision": "7c86daa65c8603b53c79",
+    "url": "/deeplizard-clone/static/js/2.0084b9c4.chunk.js"
   },
   {
     "revision": "9b318b6fb13190fe82c0677e9264b3c7",
-    "url": "/deeplizard-clone/static/js/2.1bd21777.chunk.js.LICENSE.txt"
+    "url": "/deeplizard-clone/static/js/2.0084b9c4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1a0e46befe1a5972d5b1",
-    "url": "/deeplizard-clone/static/js/main.888c63d2.chunk.js"
+    "revision": "5967d16fa0d2b8d69486",
+    "url": "/deeplizard-clone/static/js/main.3a9257f5.chunk.js"
   },
   {
     "revision": "648e4f4f43f771b7488b",
